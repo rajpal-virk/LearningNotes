@@ -124,7 +124,15 @@ git status # view staged and unstaged changes
 git status -s # view short status of staged and unstaged changes
 ```
 
-## Difference of files
+### Difference of files
 ```shell
 git diff 
+```
+
+## Undoing Changes
+### Unstaging a staged file
+```shell
+# make change to a tracked file
+# check its status, you will notice it has modified status
+git reset HEAD <fileName>
 ```
