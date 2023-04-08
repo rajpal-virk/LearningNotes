@@ -58,6 +58,10 @@ git branch -M <oldName> <newName> #force move even if new name given already exi
 ```shell
 git branch -d <branchName>
 git branch -D <branchName> # force delete even when branch is not merged to other branch
+git branch -r -d <remoteBranchName> # deletes the remote branch locally
+# Note: if you delete a remote branch locally but still have to use it. 
+# you need to set upstream again, commit and push. Once push is done, new remote branch will 
+# appear in the list of remote branches
 ```
 
 ## Remote
