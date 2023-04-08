@@ -52,5 +52,3 @@
 - make necessary new changes
 - merge branch back to main branch
 - delete new branch
-
-# delete it later
