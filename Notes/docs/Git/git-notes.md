@@ -53,3 +53,5 @@
 - commit new changes
 - pull other changes applicable to other files from remote repo
 - push changes back with new file changes
+
+# delete these changes later
