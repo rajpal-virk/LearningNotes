@@ -41,4 +41,8 @@
 # commit without staging
 - git commit with -a flog
 
-# How to unstage staged changesadfaf
+# How to unmodify a modified file to last commit
+- git restore <fileName>
+
+# How to remove a file from staged area to unstaged area
+- git restore --staged <fileName>

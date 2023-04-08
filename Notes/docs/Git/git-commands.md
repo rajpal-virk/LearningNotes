@@ -136,3 +136,20 @@ git diff
 # check its status, you will notice it has modified status
 git reset HEAD <fileName>
 ```
+
+
+### Unmodify modified changes
+```shell
+git restore <fileName>
+```
+
+### Unstage a staged file
+```shell 
+git restore --staged <fileName>
+```
+
+### Restore files to earlier commits
+```shell
+
+
+```
