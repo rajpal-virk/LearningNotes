@@ -107,5 +107,7 @@ git pull
 ```shell
 git push 
 git push origin main
+# Note: if push is failed due to no upstream then set up upstream first
+git push -u origin <remoteBranch>
 ```
 
