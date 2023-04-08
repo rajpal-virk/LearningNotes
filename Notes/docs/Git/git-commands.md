@@ -146,6 +146,7 @@ git restore <fileName>
 ### Unstage a staged file
 ```shell 
 git restore --staged <fileName>
+git reset # remove all files from staging area
 ```
 
 ### Restore files to earlier commits
