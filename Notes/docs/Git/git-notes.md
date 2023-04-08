@@ -48,9 +48,8 @@
 - git restore --staged <fileName>
 
 # How to revert all files back to earlier commit
-- create and checkout new branch from earlier commit
-- make necessary new changes
-- merge branch back to main branch
-- delete new branch
-
-# delete it later. I will delete it later
+- do a hard reset to earlier commit
+- make changes to the file
+- commit new changes
+- pull other changes applicable to other files from remote repo
+- push changes back with new file changes
