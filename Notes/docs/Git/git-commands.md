@@ -78,12 +78,6 @@ git remote remove origin # remove existing remote repo
 
 
 ## Updating Repo
-### Add files
-```shell
-git add . # to add all files to commit
-git add <fileName> # to add a specific file to commit
-```
-
 
 ### Merge
 ```shell
@@ -95,12 +89,18 @@ git merge dev
 # usual practice is delete dev branch (branch that is already merged to other branch)
 ```
 
-
 ### Fetch or Pull
 ```shell
 git checkout <branchName>
 git fetch # this ill not update the working directory 
 git pull
+```
+
+
+### Commit changes
+```shell
+git commit -m "typeYourMessageHere"
+git commit -a -m "typeYourMessageHere" # -a flag will add the tracked files to commit.
 ```
 
 ### Push
@@ -111,3 +111,20 @@ git push origin main
 git push -u origin <remoteBranch>
 ```
 
+## Files Snapshotting
+### Add files
+```shell
+git add . # to add all files to commit
+git add <fileName> # to add a specific file to commit
+```
+
+### Files status
+```shell
+git status # view staged and unstaged changes
+git status -s # view short status of staged and unstaged changes
+```
+
+## Difference of files
+```shell
+git diff 
+```
