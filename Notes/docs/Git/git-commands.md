@@ -75,3 +75,37 @@ git remote add <nameRepoLocally> <ssh@your-or-contributors-remote-repo>
 ```shell
 git remote remove origin # remove existing remote repo
 ```
+
+
+## Updating Repo
+### Add files
+```shell
+git add . # to add all files to commit
+git add <fileName> # to add a specific file to commit
+```
+
+
+### Merge
+```shell
+# checkout dev branch
+# work and update dev branch
+# checkout main branch
+# merge dev branch to main branch
+git merge dev
+# usual practice is delete dev branch (branch that is already merged to other branch)
+```
+
+
+### Fetch or Pull
+```shell
+git checkout <branchName>
+git fetch # this ill not update the working directory 
+git pull
+```
+
+### Push
+```shell
+git push 
+git push origin main
+```
+
