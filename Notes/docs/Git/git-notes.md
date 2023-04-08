@@ -46,3 +46,5 @@
 
 # How to remove a file from staged area to unstaged area
 - git restore --staged <fileName>
+
+# test line to be removed
