@@ -151,6 +151,6 @@ git reset # remove all files from staging area
 
 ### Restore files to earlier commits
 ```shell
-
-
+git reset --soft <commitID> # this will reset to earlier commit id but not change working tree or files back to earlier stage 
+git reset --soft <commitID> # this will reset working tree and files to earlier stage. May cause loss changes 
 ```
