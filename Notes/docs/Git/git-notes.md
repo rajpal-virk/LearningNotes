@@ -46,3 +46,12 @@
 
 # How to remove a file from staged area to unstaged area
 - git restore --staged <fileName>
+
+# How to revert all files back to earlier commit
+- do a hard reset to earlier commit
+- make changes to the file
+- commit new changes
+- pull other changes applicable to other files from remote repo
+- push changes back with new file changes
+
+# delete these changes later
